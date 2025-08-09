@@ -1,0 +1,32 @@
+# Core MCP dependencies  
+mcp>=1.12.0
+fastapi>=0.115.0
+uvicorn[standard]==0.24.0
+
+# Google API dependencies
+google-api-python-client==2.108.0
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-cloud-secret-manager==2.16.4
+
+# Data validation and serialization
+pydantic>=2.8.0
+
+# Redis for idempotency cache
+redis==5.0.1
+
+# Configuration management
+python-dotenv==1.0.0
+
+# Observability
+opentelemetry-api==1.21.0
+opentelemetry-sdk==1.21.0
+opentelemetry-instrumentation-fastapi==0.42b0
+opentelemetry-instrumentation-requests==0.42b0
+opentelemetry-exporter-otlp==1.21.0
+
+# Testing and development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx>=0.27
+pytest-cov==4.1.0
